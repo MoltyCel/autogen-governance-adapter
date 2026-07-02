@@ -1,0 +1,23 @@
+{
+  "min_trust_score": 0.7,
+  "provider_jwks": {
+    "keys": [
+      {
+        "crv": "Ed25519",
+        "kid": "did:web:api.moltrust.ch#key-1",
+        "kty": "OKP",
+        "x": "xsjkCjVNpbb7tf8wDmOeCWhXDvFdUBylxdFtAy3iSCg"
+      }
+    ]
+  },
+  "subject_did": "did:moltrust:0123456789abcdef",
+  "trust_packet": {
+    "context": "behavioral_trust_v1",
+    "issued_at": "2020-01-01T00:00:00Z",
+    "issuer_did": "did:web:api.moltrust.ch#key-1",
+    "payload": "",
+    "score": 0.85,
+    "signature": "yPuN7oo_dtWOXmpaTT8H_kKKMckUBifVqf7Ds8lgRWSDlWHUGX5kbA3IIsgPgP1HP7btOCcgeNj_ugp41zGTBw",
+    "subject_did": "did:moltrust:0123456789abcdef"
+  }
+}
